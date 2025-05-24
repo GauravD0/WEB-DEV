@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Alerts</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-success">This is Success</div>
+        <div class="alert alert-info">This is Info</div>
+        <div class="alert alert-warning">This is Warning</div>
+        <div class="alert alert-danger">This is Danger</div>
+    </div>
+    <div class="container">
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Success!</strong> This is a success alert.
+
+        </div>
+
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>info!</strong> This is a info alert.
+
+        </div>
+
+        <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Warning!</strong> This is a warning alert.
+
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>danger!</strong> This is a danger alert.
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="alert alert-success"><a href="a" class="alert-link">This is Success</a></div>
+        <div class="alert alert-info"><a href="a" class="alert-link">This is Info</a></div>
+        <div class="alert alert-warning"><a href="a" class="alert-link">This is warning</a></div>
+        <div class="alert alert-danger"><a href="a" class="alert-link">This is danger</a></div>
+    </div>
+</body>
+</html>
